@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Proxima Nova;
+}
+
+.site {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    min-height: 100vh !important;
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+}
+
+.site.pattern {
+  background-image:url('../media/cc_pattern.png') !important;
+  background-color: #f9f9f9 !important;
+  border-bottom: none !important;
+  margin: 0px !important;
+}
+
+.content {
+  -ms-flex: 1 1 !important;
+      flex: 1 1 !important;
+}
+
+.hero {
+  background-image:url('../media/Home_BG.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+.howHero {
+  background-image:url('../media/how.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+
+}
+
+.uneven {
+  background-image:url('../media/cc_pattern.png') !important;
+  background-color: #f9f9f9 !important;
+  border-bottom: none !important;
+  margin: 0px !important;
+}
+
+.active.item {
+  background-color: rgba(255,255,255,.0) !important;
+}
+
+.faqHeader {
+  background-image:url('../media/faq.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+.spaceManHero {
+  background-image:url('../media/spaceman.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.noBorder {
+  border-bottom: none !important;
+}
+
+.how {
+  margin: 0em !important;
+}
+
+.columnBg {
+  background: #fff !important;
+  border-radius: 8px !important;
+  padding: 2em 1em !important;
+}
+
+/*
+.cards {
+  background-image:url('./cards.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right !important;
+  background-size: cover !important;
+}
+*/
+.custom_icon{
+  width: 1.4em;
+  margin: 0 .6rem 0 0;
+  background-color: white;
+  vertical-align: bottom;
+}
+
+
+// WEBPACK FOOTER //
+// ./src/style/App.css
